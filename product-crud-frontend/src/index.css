@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.text--title {
+  @apply text-2xl md:text-4xl font-bold;
+}
+
+label {
+  @apply text-lg font-medium block;
+}
+input,
+textarea {
+  @apply border border-black text-lg border-solid p-1 mt-2 w-full;
+}
+
+button {
+  @apply border-2 border-solid border-black transition-all duration-200 px-6 py-2 text-lg font-semibold uppercase rounded;
+  font-family: inherit;
+}
+
+button:hover {
+  @apply bg-black text-white;
+}
